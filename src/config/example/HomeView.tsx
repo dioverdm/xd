@@ -153,7 +153,7 @@ function VoiceChannelItem() {
         <Text>Radio</Text>
       </CardHeader>
       <CardBody mt={3}>
-        <Text color="TextSecondary">890 Miembros</Text>
+        <Text color="TextSecondary">890 Oyentes</Text>
       </CardBody>
     </Card>
   );
