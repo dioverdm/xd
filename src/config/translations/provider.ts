@@ -7,13 +7,13 @@ import Router, { useRouter } from 'next/router';
 export type Languages = 'en' | 'cn';
 export const { languages, names } = initLanguages<Languages>({
   en: 'English',
-  cn: '中文',
+  cn: 'Español',
 });
 
 export const provider = initI18n<Languages>({
   useLang: () => {
     const router = useRouter();
-    return (router.locale as Languages) ?? 'en';
+    return (router.locale as Languages) ?? 'cn';
   },
 });
 
