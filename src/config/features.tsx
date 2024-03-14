@@ -24,14 +24,14 @@ const { T } = createI18n(provider, {
     'memes description': 'Send memes everyday',
   },
   cn: {
-    music: '音樂播放器',
-    'music description': '在您的 Discord 服務器中播放音樂',
-    gaming: '遊戲',
-    'gaming description': 'Enjoy playing games with your friends',
-    'reaction role': '反應角色',
-    'reaction role description': '單擊按鈕時為用戶賦予角色',
-    memes: '模因時間',
-    'memes description': '每天發送模因',
+    music: 'Reproductor de música',
+    'music description': 'Reproduce música en tu servidor Discord',
+    gaming: 'Mini juegos',
+    'gaming description': 'Disfruta jugando con tus amigos',
+    'reaction role': 'Rol de reacción',
+    'reaction role description': 'Asignar rol al usuario cuando se hace clic en el botón',
+    memes: 'Ticket',
+    'memes description': 'Ofrece un maravilloso soporte a los miembros de tu servidor',
   },
 });
 
