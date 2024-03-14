@@ -6,7 +6,7 @@ import { theme } from '@/theme/config';
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head />
       <body>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
