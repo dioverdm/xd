@@ -21,21 +21,21 @@ export const guild = createI18n(provider, {
     },
   },
   cn: {
-    features: '管理機器人功能',
+    features: 'Administrar la funcionalidad del bot',
     banner: {
-      title: '立即免費試用',
-      description: '為您的服務器定制機器人',
+      title: 'Pruébalo gratis',
+      description: 'Personaliza a Pogo OS para tu servidor',
     },
     error: {
-      'not found': '它在哪裡？',
-      'not found description': '機器人無法訪問服務器，我們邀請他吧！',
-      load: '無法加載服務器',
+      'not found': '¿Dónde está?',
+      'not found description': 'Pogo OS no puede acceder al servidor, ¡invitémoslo!',
+      load: 'No se puede cargar el servidor',
     },
     bn: {
-      'enable feature': '啟用功能',
-      'config feature': '配置',
-      invite: '邀請機器人',
-      settings: '設置',
+      'enable feature': 'Habilitar funciones',
+      'config feature': 'Configuración',
+      invite: 'Invitar a Pogo OS',
+      settings: 'configuración',
     },
   },
 });
