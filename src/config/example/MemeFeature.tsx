@@ -33,8 +33,8 @@ export const useMemeFeature: UseFormRender<MemeFeature> = (data, onSubmit) => {
       <SimpleGrid columns={{ base: 1, lg: 2 }} gap={3}>
         <ChannelSelectForm
           control={{
-            label: 'Channel',
-            description: 'Where to send the welcome message',
+            label: 'Canal',
+            description: 'Dónde enviar el mensaje de bienvenida',
           }}
           controller={{ control, name: 'channel' }}
         />
