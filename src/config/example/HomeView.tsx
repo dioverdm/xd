@@ -131,12 +131,12 @@ function TestChart() {
       }}
       series={[
         {
-          name: 'Paid',
-          data: [50, 64, 48, 66, 49, 68],
+          name: 'Moderación',
+          data: [50, 64, 48, 66, 49, 68, 95],
         },
         {
-          name: 'Free Usage',
-          data: [30, 50, 13, 46, 26, 16],
+          name: 'General',
+          data: [30, 50, 13, 46, 26, 16, 89],
         },
       ]}
       height="300"
@@ -150,10 +150,10 @@ function VoiceChannelItem() {
     <Card rounded="2xl" variant="primary">
       <CardHeader as={HStack}>
         <Icon as={MdVoiceChat} color="Brand" fontSize={{ base: '2xl', md: '3xl' }} />
-        <Text>My Channel</Text>
+        <Text>Radio</Text>
       </CardHeader>
       <CardBody mt={3}>
-        <Text color="TextSecondary">89 Members</Text>
+        <Text color="TextSecondary">890 Miembros</Text>
       </CardBody>
     </Card>
   );
