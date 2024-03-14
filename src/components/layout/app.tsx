@@ -25,7 +25,7 @@ export default function AppLayout({
       <Show below={sidebarBreakpoint}>
         <SidebarResponsive sidebar={sidebar} />
       </Show>
-      <QueryStatus query={query} loading={<LoadingPanel />} error="Failed to load user info">
+      <QueryStatus query={query} loading={<LoadingPanel />} error="No se pudo cargar la información del usuario">
         <Flex
           pos="relative"
           direction="column"
