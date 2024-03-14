@@ -40,32 +40,32 @@ export const useWelcomeMessageFeature: UseFormRender<WelcomeMessageFeature> = (d
       <SimpleGrid columns={{ base: 1, lg: 2 }} gap={3}>
         <ChannelSelectForm
           control={{
-            label: 'Channel',
-            description: 'Where to send the welcome message',
+            label: 'Canal',
+            description: 'Dónde enviar el mensaje de bienvenida',
           }}
           controller={{ control, name: 'channel' }}
         />
         <TextAreaForm
           control={{
-            label: 'Message',
-            description: 'The message to send',
+            label: 'Mensaje',
+            description: 'El mensaje a enviar',
             error: formState.errors.message?.message,
           }}
-          placeholder="Type some text here..."
+          placeholder="Escribe un texto aquí..."
           {...register('message')}
         />
         <SmallColorPickerForm
           control={{
             label: 'Color',
-            description: 'The color of message',
+            description: 'El color del mensaje',
           }}
           supportAlpha
           controller={{ control, name: 'color' }}
         />
         <FilePickerForm
           control={{
-            label: 'File',
-            description: 'The file to upload',
+            label: 'Archivo',
+            description: 'El archivo a subir',
           }}
           options={{ accept: { 'image/*': [] }, multiple: false }}
           controller={{ control, name: 'file' }}
@@ -73,19 +73,19 @@ export const useWelcomeMessageFeature: UseFormRender<WelcomeMessageFeature> = (d
         <ColorPickerForm
           control={{
             label: 'Color',
-            description: 'The color of message',
+            description: 'El color del mensaje',
           }}
           controller={{ control, name: 'color' }}
         />
         <DatePickerForm
           control={{
-            label: 'Date',
-            description: 'The date of today',
+            label: 'Fecha',
+            description: 'La fecha de hoy',
           }}
           controller={{ control, name: 'date' }}
         />
         <SwitchFieldForm
-          control={{ label: 'Turn on', description: 'Enable something' }}
+          control={{ label: 'Encender', description: 'habilitar algo' }}
           controller={{
             control,
             name: 'danger',
