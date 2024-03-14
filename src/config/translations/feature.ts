@@ -22,7 +22,7 @@ export const feature = createI18n(provider, {
     error: {
       'not enabled': 'No disponible',
       'not enabled description': '¿Intentas habilitar esta función?',
-      'not found': '未找到功能',
+      'not found': 'Función no encontrada',
       'not found description': 'Extraño... no podemos encontrarlo.',
     },
     bn: {
