@@ -58,7 +58,7 @@ function List(props: { textColor: string; shadow: string; menuBg: string; user: 
           <span aria-label="Hi" role="img">
             👋
           </span>
-          &nbsp; Hey, {user.username}
+          &nbsp; Hola, {user.username}
         </Text>
       </Flex>
       <Flex flexDirection="column" p="10px">
