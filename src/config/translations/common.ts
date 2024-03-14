@@ -21,7 +21,7 @@ export const common = createI18n(provider, {
     'select channel': 'Seleccionar canal',
     dashboard: 'Panel',
     profile: 'informacion del usuario',
-    pages: 'Todas las páginas',
+    pages: 'Páginas',
     logout: 'desconectar',
   },
 });
