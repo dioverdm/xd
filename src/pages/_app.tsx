@@ -27,6 +27,8 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
       <QueryClientProvider client={client}>
         <Head>
           <title>Pogo OS | DASHBOARD | Bot Multipropósito de Discord</title>
+          <meta name="description" content="¡Con casi todas las funciones que pueda imaginar, además de personal dedicado, Pogo OS es el complemento perfecto para cualquier servidor Discord!" />
+          <meta name="og:title" content="Pogo OS | DASHBOARD | Bot Multipropósito de Discord" />
         </Head>
         {getLayout(<Component {...pageProps} />)}
       </QueryClientProvider>
