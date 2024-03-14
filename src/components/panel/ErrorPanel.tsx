@@ -12,7 +12,7 @@ export function ErrorPanel({ children, retry }: { children: string; retry: () =>
           {children}
         </Text>
         <Button variant="danger" onClick={retry}>
-          Try Again
+          Intentar otra vez
         </Button>
       </VStack>
     </Center>
